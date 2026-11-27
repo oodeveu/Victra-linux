@@ -24,7 +24,7 @@ This repository contains **only a shell script and documentation**. It does not 
 | Texture quality | ⚠️ | Models stayed at the lowest detail until `VICTORY_CARD_REHASH_RUNS=0` was set. |
 | Frame rate | ❌ | About 1 FPS, GPU nearly idle on the reference test machine. Cause not yet identified. |
 | Gameplay | ❌ | Not yet playable on the reference test machine. |
-| Controller support | ❓ | Not tested. |
+| Controller support | ✅ | Via Steam Input (DualShock 4) |
 
 On the reference test machine, the GPU stays cold (about 47 °C on an RTX 3060) while the game is running, which points to a CPU-side or synchronization bottleneck rather than a GPU one. It is not yet known whether the cause is Proton, the settings, or the game's translation layer. Testing the same build on native Windows is the planned way to tell them apart.
 
