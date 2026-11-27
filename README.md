@@ -34,8 +34,8 @@ The GPU stays cold (about 47 °C on an RTX 3060) while the game is running, whic
 | :--- | :--- |
 | Build | Vice-Tay (`diag` profile, `--features diagnostics`) |
 | OS | Linux (distribution: _fill in_) |
-| Kernel | _fill in_ |
-| CPU | _fill in_ |
+| Kernel | linux_zen |
+| CPU | AMD Ryzen 5 5600 |
 | GPU | NVIDIA GeForce RTX 3060 |
 | RAM | 32 GB |
 | Compatibility layer | GE-Proton11-14 |
