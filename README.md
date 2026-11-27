@@ -1,4 +1,4 @@
-# VIctory-linux
+# Victra-linux
 
 An experimental launcher script and guide that builds and runs **VIctory** (including its forks and builds) on Linux through **GE-Proton** (Wine + vkd3d-proton, D3D12 → Vulkan).
 
