@@ -20,7 +20,7 @@ The primary goal of this project is to allow Linux users to run **VIctory** seam
 | **Controller Support** | ✅ | Works with all gamepads via Steam Input (verified on DualShock 4). |
 | **Main Menu** | ✅ | Locked 30 FPS with zero stuttering during intro and splash screens. |
 | **Loading Screens** | ⚠️ | Occasional minor stutters with dips no lower than 15 FPS (matches Windows behavior). |
-| **Opening Cutscenes** | ⚠️ | Severe bottleneck (~1–2 FPS, slideshow-level playback). |
+| **Opening Cutscenes** | ⚠️ | Severe bottleneck (~1–2 FPS, slideshow-level playback). Note: performance on this exact Windows build is already poor (3–5 FPS). |
 | **Gameplay** | ❌ | Not yet reached. |
 
 ## Test Environment
@@ -29,6 +29,7 @@ All benchmarks and status checks listed above were recorded on the following har
 
 | Component | Specification |
 | :--- | :--- |
+| **Tested Build / Port** | `VIctory-NVIDIA` |
 | **OS / Distribution** | Arch Linux |
 | **Kernel** | `linux-zen` |
 | **CPU** | AMD Ryzen 5 5600 |
