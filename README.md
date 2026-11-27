@@ -1,7 +1,5 @@
 # Victra-linux
 
-# Overview
-
 **Victra-linux** is a compatibility layer and wrapper designed to bring **VIctory** from Microsoft Windows to Linux, powered by **Proton**.
 
 ## Goals
