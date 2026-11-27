@@ -46,9 +46,6 @@ On the reference test machine, the GPU stays cold (about 47 °C on an RTX 3060) 
 * A recent NVIDIA driver with Vulkan support.
 * [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom) (tested with GE-Proton11-14), extracted into a Steam compatibility tools directory, e.g. `~/.local/share/Steam/compatibilitytools.d/`.
 * [rustup](https://rustup.rs/) and a mingw-w64 cross-compiler.
-* Arch Linux: `sudo pacman -S rustup mingw-w64-gcc`
-
-
 * A checkout of your **VIctory** repository or fork.
 * Your own game files, prepared as VIctory expects (a directory containing `game_scarlett_master.exe`).
 * Optional: a native `d3dcompiler_47.dll`. Without it Wine may reject helper shaders.
